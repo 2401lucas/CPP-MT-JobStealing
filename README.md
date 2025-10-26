@@ -62,8 +62,8 @@ for (uint32_t i = 0; i < workload_size; ++i) {
 
 ### Performance Notes
 
--Designed for CPU-bound workloads with many small, independent tasks.
+- Designed for CPU-bound workloads with many small, independent tasks.
 
--Scales well up to N threads on systems with minimal contention.
+- Scales well up to N threads on systems with minimal contention.
 
--Consider using batch submission for improved locality and reduced contention.
+- Batch submission should be used for improved locality and reduced contention.
